@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100;
+    background: url(bg\ \(2\).jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -5;
+    margin-left: -2;
+}
+ul{
+    margin: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: aliceblue;
+    margin: -50%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: blueviolet;
+}
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+.info h1{
+    font-size: 85px;
+    color: rgb(212, 179, 87);
+}
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: rgb(218, 195, 145);
+}
+.info span{
+    color: rgba(202, 136, 55, 0.952);
+}
+.info a{
+    text-decoration: none;
+    color: rgb(197, 175, 47);
+    background-color: rgb(50, 30, 139);
+    margin: 26px 0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.info a:hover{
+    background-color: beige;
+}
+.icons a{
+    text-decoration: none;
+    color: bisque;
+}
+.icons ion-icon{
+    margin-left: 60px;
+    color: bisque;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: aquamarine;
+}
